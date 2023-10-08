@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "379551380309",
+    "project_id": "fishsnap-59a71",
+    "storage_bucket": "fishsnap-59a71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379551380309:android:fd57230ec3d3551e19f5dc",
+        "android_client_info": {
+          "package_name": "com.example.fishsnap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf52sjjGNXt3tF_8CTdXLzmQRahD0D6hY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

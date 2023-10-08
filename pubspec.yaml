@@ -1,0 +1,51 @@
+name: fishsnap
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  firebase_auth: ^4.10.0
+  firebase_core: ^2.16.0
+  flutter:
+    sdk: flutter
+  animated_bottom_navigation_bar: ^1.3.0
+  image_picker: ^1.0.4
+  permission_handler: ^11.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  page_transition: ^2.1.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/login.jpg
+    - assets/images/onboardingOne.png
+    - assets/images/onboardingTwo.png
+    - assets/images/onboardingThree.png
+    - assets/images/scan.png
+    - assets/images/fish.jpg
+    - assets/images/fishTwo.jpg
+    - assets/images/fish.jpeg
+    - assets/images/logo.png
+    - assets/images/profile.jpeg
+    - assets/images/fish/Bubbles.jpeg
+    - assets/images/fish/Coral.jpeg
+    - assets/images/fish/Flounder.jpeg
+    - assets/images/fish/Guppy.jpeg
+    - assets/images/fish/Koi.jpeg
+    - assets/images/fish/Neptune.jpeg
+    - assets/images/fish/Tango.jpeg
+    - assets/images/fish/Zephyr.jpeg
+    - assets/images/shrimp/Cherry_shrimp.jpeg
+    - assets/images/shrimp/Giant_freshwater_prawn.jpeg
+    - assets/images/shrimp/Whiteleg_shrimp.jpeg
+    - assets/images/crabs/blur_crab.jpeg
+    - assets/images/crabs/king_Crab.jpeg
+    - assets/images/crabs/snow_Crab.jpeg
+    - assets/images/crabs/Dungeness_Crab.jpeg

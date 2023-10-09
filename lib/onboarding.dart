@@ -48,31 +48,34 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
         child: Stack(
           alignment: Alignment.bottomCenter,
           children: [
-            Center(
-              child: PageView(
-                onPageChanged: (int page) {
-                  setState(() {
-                    currentIndex = page;
-                  });
-                },
-                controller: _pageController,
-                children: const [
-                  createPage(
-                    images: 'assets/images/onboardingOne.png',
-                    title: 'Discover Fish Species',
-                    description: 'Explore a vast collection of fish species and their characteristics.',
-                  ),
-                  createPage(
-                    images: 'assets/images/onboardingTwo.png',
-                    title: "Identify Fishes",
-                    description: "Use our AI-powered tool to identify unknown fish species from photos.",
-                  ),
-                  createPage(
-                    images: 'assets/images/onboardingThree.png',
-                    title: "Dive into the world of fish",
-                    description: "Learn more about fish species and their characteristics.",
-                  ),
-                ],
+            Container(
+              padding: const EdgeInsets.only(bottom: 60),
+              child: Center(
+                child: PageView(
+                  onPageChanged: (int page) {
+                    setState(() {
+                      currentIndex = page;
+                    });
+                  },
+                  controller: _pageController,
+                  children: const [
+                    createPage(
+                      images: 'assets/images/onboardingOne.png',
+                      title: 'Discover Fish Species',
+                      description: 'Explore a vast collection of fish species and their characteristics.',
+                    ),
+                    createPage(
+                      images: 'assets/images/onboardingTwo.png',
+                      title: "Identify Fishes",
+                      description: "Use our AI-powered tool to identify unknown fish species from photos.",
+                    ),
+                    createPage(
+                      images: 'assets/images/onboardingThree.png',
+                      title: "Dive into the world of fish",
+                      description: "Learn more about fish species and their characteristics.",
+                    ),
+                  ],
+                ),
               ),
             ),
             Positioned(

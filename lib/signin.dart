@@ -63,7 +63,7 @@ class _SignInPageState extends State<SignInPage> {
                   Container(
                       margin: const EdgeInsets.only(left: 40,right: 40),
                       child: reusableTextField(
-                          "Enter UserName",Icons.person_2_outlined,false,
+                          "Enter User Name",Icons.person_2_outlined,false,
                         _emailTextController
                         ),
                     ),

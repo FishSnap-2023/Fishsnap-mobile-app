@@ -16,7 +16,6 @@ class Fish {
 }
 
 final List<Fish> fishData = [
-   
    //fish
    Fish(
     name: 'Bubbles',

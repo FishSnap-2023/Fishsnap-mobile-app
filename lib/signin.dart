@@ -22,7 +22,7 @@ class _SignInPageState extends State<SignInPage> {
         email: _emailTextController.text,
         password: _passwordTextController.text,
       );
-      Navigator.push(context, MaterialPageRoute(builder: (context) => const RootPage()));
+      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => const RootPage()));
     } on FirebaseAuthException catch (e) {
       print("Sign in error: ${e.message}");
     }

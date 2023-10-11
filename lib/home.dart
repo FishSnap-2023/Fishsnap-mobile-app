@@ -143,7 +143,7 @@ class FishDetailPage extends StatelessWidget {
         title: Text(
           fish.name,
           style: const TextStyle(
-            color: Colors.black,
+            color: Color.fromARGB(255, 255, 255, 255),
             fontWeight: FontWeight.bold,
             ),
 
@@ -173,7 +173,7 @@ class FishDetailPage extends StatelessWidget {
               style: const TextStyle(
                 fontSize: 18.0,
                 fontWeight: FontWeight.normal,
-                color: Color.fromARGB(255, 18, 2, 61),
+                color: Color.fromARGB(255, 0, 0, 0),
               ),
               ),
               const SizedBox(height: 8),

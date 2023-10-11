@@ -4,6 +4,7 @@ import 'package:fishsnap/onboarding.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+
 Future<void> main() async {
   SystemChrome.setSystemUIOverlayStyle(
     const SystemUiOverlayStyle(
@@ -30,7 +31,6 @@ class MainApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
-        fontFamily: 'Roboto',
       ),
       home: const SplashScreen(),
       debugShowCheckedModeBanner: false,
@@ -49,7 +49,9 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    Timer(const Duration(seconds: 3), () {
+    Timer(
+      const Duration(seconds: 3),
+      () {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(builder: (context) => const OnboardingScreen()),
@@ -60,16 +62,13 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue, 
-      // appBar: AppBar(
-      //   backgroundColor: Colors.blue.withOpacity(0.9),
-      // ),// Set background color to blue
+      backgroundColor: Colors.blue,
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-              'assets/images/logo.png', 
+              'assets/images/logo.png',
               width: 400,
               height: 400,
             ),

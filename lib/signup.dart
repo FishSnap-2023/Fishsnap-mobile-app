@@ -21,8 +21,7 @@ class _SignUpPageState extends State<SignUpPage> {
         email: _emailController.text,
         password: _passwordController.text,
       );
-      Navigator.push(context, MaterialPageRoute(builder: (context) => const RootPage()));
-      // You can handle the newly created user here, such as storing user data in Firebase Firestore.
+      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => const RootPage()));
       print('User signed up: ${userCredential.user?.email}');
     } catch (e) {
       print('Error during signup: $e');

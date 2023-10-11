@@ -16,7 +16,7 @@ class _ScanPageState extends State<ScanPage> {
         title: const Text(
           'Scan Page',
           style: TextStyle(
-            color: Colors.black,
+            color: Color.fromARGB(255, 255, 255, 255),
             fontSize: 24.0,
             fontWeight: FontWeight.bold,
           ),

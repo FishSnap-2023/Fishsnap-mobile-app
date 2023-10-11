@@ -1,0 +1,242 @@
+[
+    {
+       "id": 0,
+       "name": "Bangus",
+       "Scientific Name": "Chanos chanos",
+       "description": "A milkfish, also known as bangus, is a popular food fish in the Philippines. It is a euryhaline fish, meaning it can tolerate a wide range of salinities. This allows it to live in both freshwater and saltwater habitats. Bangus are typically found in coastal waters, estuaries, and rivers. They are omnivores, and their diet consists of algae, plankton, and small invertebrates. Bangus can grow up to 1.8 meters long and weigh up to 60 kilograms."
+     },
+
+     {
+       "id": 1,
+       "name": "Big Head Carp",
+      "Scientific Name": "Hypophthalmichthys nobilis",
+       "description": "The bighead carp is a large freshwater fish native to eastern Asia. It is a popular food fish in China and other parts of Asia. Bighead carp are filter feeders and their diet consists of plankton and other small organisms. They can grow up to 2 meters long and weigh up to 100 kilograms."
+     },
+
+     {
+       "id": 2,
+       "name": "Black Spotted Barb",
+       "Scientific Name": "Hypophthalmichthys nobilis",
+       "description": "The black spotted barb is a small freshwater fish native to Southeast Asia. It is a popular aquarium fish and is also used as a food fish in some parts of Asia. Black spotted barbs are omnivores and their diet consists of algae, plankton, and small invertebrates. They can grow up to 10 centimeters long."
+     },
+
+     {
+       "id": 3,
+       "name": "CatFish",
+       "Scientific Name": "Siluriformes",
+       "description": "Catfish are a diverse group of freshwater fish found all over the world. There are over 2,800 species of catfish, ranging in size from a few centimeters to over 3 meters long. Catfish are typically bottom-feeding fish and their diet consists of worms, insects, and other small organisms. Catfish are a popular food fish and are also used in aquaculture."
+     },
+
+     {
+       "id": 4,
+       "name": "Climbing Perch",
+       "Scientific Name": "Anabas testudineus",
+       "description": "The climbing perch is a freshwater fish native to Southeast Asia. It is a unique fish in that it can breathe air and can travel short distances on land. Climbing perch are typically found in stagnant waters and swamps. They are omnivores and their diet consists of algae, insects, and small fish. Climbing perch are a popular food fish in some parts of Asia."
+     },
+
+     {
+       "id": 5,
+       "name": "FourFinger Thredfin",
+       "Scientific Name": "Polydactylus plebeius",
+       "description": "Description of Fish 1"
+     },
+
+     {
+       "id": 6,
+       "name": "FreshWater Eel",
+       "Scientific Name": "Anguilla",
+       "description": "The freshwater eel is a catadromous fish, meaning it migrates from freshwater to saltwater to spawn. Freshwater eels are found in rivers and lakes in Europe and North America. They migrate to the Sargasso Sea to spawn and their young then migrate back to freshwater habitats. Freshwater eels are carnivores and their diet consists of fish, crustaceans, and insects. Freshwater eels can grow up to 1.5 meters long and weigh up to 10 kilograms."
+     },
+
+     {
+       "id":7 ,
+       "name": "Glass Perchlet",
+      "Scientific Name": "Ambassis gymnocephalus",
+       "description": "The glass perchlet is a small saltwater fish native to the Indo-Pacific region. It is a popular aquarium fish and is also used as a food fish in some parts of Asia. Glass perchlets are typically found in coral reefs and mangrove swamps. They are carnivores and their diet consists of small invertebrates. Glass perchlets can grow up to 5 centimeters long."
+     },
+
+     {
+       "id": 8,
+       "name": "Goby",
+      "Scientific Name": "Gobiidae",
+       "description": "Gobies are a diverse group of fish found in both freshwater and saltwater habitats. There are over 2,000 species of gobies, ranging in size from a few centimeters to over 30 centimeters long. Gobies are typically bottom-dwelling fish and their diet consists of algae, worms, and small invertebrates. Gobies are a popular food fish in some parts of the world."
+     },
+
+     {
+       "id": 9,
+       "name": "Gold Fish",
+      "Scientific Name": "Carassius auratus",
+       "description": "The goldfish is a freshwater fish native to eastern Asia. It is a popular aquarium fish and is also used as a food fish in some parts of Asia. Goldfish are omnivores and their diet consists of algae, plankton, and small invertebrates. Goldfish can grow up to 30 centimeters long."
+     },
+
+     {
+       "id": 10,
+       "name": "Gourami",
+       "Scientific Name": "Osphronemidae",
+       "description": "Gouramis are a group of freshwater fish native to Southeast Asia. They are popular aquarium fish and are also used as a food fish in some parts of Asia. Gouramis are omnivores and their diet consists of algae, insects, and small fish. Gouramis can grow up to 30 centimeters long."
+     },
+
+     {
+        "id": 11,
+        "name": "Grass Carp",
+        "scientificName": "Ctenopharyngodon idella",
+        "description": "Grass Carp is a species of carp native to eastern Asia. They are herbivorous fish and are often used for aquatic weed control in ponds and lakes. Grass Carp have elongated bodies and are adapted to feeding on aquatic plants."
+     },
+     {
+        "id": 12,
+        "name": "Green Spotted Puffer",
+        "scientificName": "Tetraodon nigroviridis",
+        "description": "Green Spotted Puffer is a species of pufferfish native to Southeast Asia. They are known for their distinctive green spots and ability to inflate their bodies when threatened. Green Spotted Puffers are popular in the aquarium trade but require specialized care."
+     },
+     {
+        "id": 13,
+        "name": "Indian Carp",
+        "scientificName": "Catla catla",
+        "description": "Indian Carp, also known as Catla, is a species of carp native to rivers and lakes in India, Nepal, and Bangladesh. They are an important food fish in South Asia and are known for their large size and rapid growth. Indian Carp are omnivorous and feed on plankton and aquatic plants."
+     },
+     {
+        "id": 14,
+        "name": "Indo-Pacific Tarpon",
+        "scientificName": "Megalops cyprinoides",
+        "description": "Indo-Pacific Tarpon is a species of fish found in coastal and estuarine waters of the Indo-Pacific region. They are known for their large size and excellent sport-fishing qualities. Indo-Pacific Tarpons are powerful swimmers and are highly prized by anglers."
+     },
+     {
+        "id": 15,
+        "name": "Jaguar Gapote",
+        "scientificName": "Cichla kelberi",
+        "description": "Jaguar Gapote is a species of cichlid fish native to South America. They are known for their striking coloration, including dark spots resembling a jaguar's pattern. Jaguar Gapotes are popular in the aquarium trade and require a spacious tank with suitable hiding places."
+     },
+     {
+        "id": 16,
+        "name": "Janitor Fish",
+        "scientificName": "Hypostomus plecostomus",
+        "description": "Janitor Fish, also known as Plecostomus, is a species of catfish native to South America. They are widely used as aquarium cleaners due to their scavenging behavior, feeding on algae and organic debris. Janitor Fish are armored catfish with bony plates covering their bodies."
+     },
+     {
+        "id": 17,
+        "name": "Knife Fish",
+        "scientificName": "Gymnotiformes",
+        "description": "Knife Fish is a group of electric fish species belonging to the Gymnotiformes order. They are found in freshwater habitats in South America and are known for their ability to generate electric fields for communication and navigation. Knife Fish come in various shapes and sizes."
+     },
+     {
+        "id": 18,
+        "name": "Long-Snouted PipeFish",
+        "scientificName": "Syngnathidae",
+        "description": "Long-Snouted Pipefish is a species of pipefish belonging to the Syngnathidae family. They are found in shallow coastal waters and seagrass beds. Long-Snouted Pipefish have elongated bodies and are known for their distinctive snouts. They are often found in pairs or small groups."
+     },
+     {
+        "id": 19,
+        "name": "Mosquito Fish",
+        "scientificName": "Gambusia",
+        "description": "Mosquito Fish is a group of small fish species belonging to the Gambusia genus. They are native to the Americas and are known for their ability to control mosquito larvae populations. Mosquito Fish are often introduced into water bodies to reduce mosquito breeding."
+     },
+     {
+        "id": 20,
+        "name": "Mudfish",
+        "scientificName": "Neochanna spp.",
+        "description": "Mudfish is a common name for several fish species adapted to muddy or swampy habitats. They are found in various regions around the world and are known for their ability to survive in oxygen-deprived waters. Mudfish have specialized adaptations for breathing air."
+     },
+     {
+        "id": 21,
+        "name": "Mullet",
+        "scientificName": "Mugilidae",
+        "description": "Mullet is a family of ray-finned fish known for their migratory behavior between freshwater and marine environments. They are found in both tropical and temperate regions and are an important food source for humans. Mullet species vary in size and habitat preferences."
+     },
+     {
+        "id": 22,
+        "name": "Pangasius",
+        "scientificName": "SpecPangasius sppies.",
+        "description": "Pangasius is a genus of catfish native to Southeast Asia. They are commonly farmed for their white flesh, which is used in various culinary dishes. Pangasius are fast-growing fish and are popular in aquaculture due to their rapid maturation and low production costs."
+     },
+     {
+        "id": 23,
+        "name": "Perch",
+        "scientificName": "Perca spp.",
+        "description": "Perch is a family of freshwater fish characterized by their spiny dorsal fins and carnivorous diet. They are found in lakes, rivers, and ponds around the world. Perch are popular among anglers and are known for their aggressive feeding behavior. They come in various species and sizes."
+     },
+     {
+        "id": 24,
+        "name": "Scat Fish",
+        "scientificName": "Scatophagidae",
+        "description": "Scat Fish is a family of fish species found in marine and brackish waters. They are known for their disc-shaped bodies and unique swimming patterns. Scat Fish are popular in aquariums and are appreciated for their interesting behavior. They require a well-maintained tank environment."
+     },
+
+     {
+       "id": 25,
+       "name": "Silver Barb",
+       "Scientific Name": "Barbonymus schwanenfeldii",
+       "description": "Description of Fish 1"
+     },
+
+     {
+       "id": 26,
+       "name":  "Silver Carp",
+       "Scientific Name": "Hypophthalmichthys molitrix",
+       "description": "Description of Fish 2"
+     },
+
+     {
+       "id": 27,
+       "name": "Silver Perch",
+       "Scientific Name": "Species",
+       "description": "Description of Fish 1"
+     },
+
+     {
+       "id": 28,
+       "name":  "Snakehead",
+       "Scientific Name": "Channidae",
+       "description": "Description of Fish 2"
+     },
+
+     {
+       "id": 29,
+       "name": "TenPounder",
+       "Scientific Name": "Elops saurus",
+       "description": "Description of Fish 1"
+     },
+     
+     {
+       "id": 30,
+       "name": "Thilapia",
+       "Scientific Name": "Oreochromis spp",
+       "description": "Description of Fish 2"
+     }
+     
+     {
+        "id": 25,
+        "name": "Silver Barb",
+        "scientificName": "Barbonymus schwanenfeldii",
+        "description": "Silver Barb is a species of cyprinid fish native to Southeast Asia. They are known for their silvery-white coloration and are popular in the aquarium trade. Silver Barbs are peaceful fish and are often kept in community aquariums. They prefer well-planted tanks with ample hiding spaces and enjoy a varied diet of live and prepared foods."
+     },
+     {
+        "id": 26,
+        "name": "Silver Carp",
+        "scientificName": "Hypophthalmichthys molitrix",
+        "description": "Silver Carp is a species of carp native to eastern Asia. They are one of the major aquaculture species globally and are also known for their leaping behavior when startled. Silver Carp have a streamlined body and are filter feeders, consuming plankton and algae. They are important in controlling aquatic vegetation in aquaculture ponds."
+     },
+     {
+        "id": 27,
+        "name": "Silver Perch",
+        "scientificName": "Bidyanus bidyanus",
+        "description": "Silver Perch is a species of freshwater fish native to Australia. They are silvery-white in color and have a slender body. Silver Perch are popular in aquaculture and are raised for food. They are known for their mild-flavored flesh and are often used in culinary preparations. Silver Perch are hardy fish and can tolerate a range of environmental conditions."
+     },
+     {
+        "id": 28,
+        "name": "Snakehead",
+        "scientificName": "Channidae",
+        "description": "Snakehead is a family of predatory fish found in Asia, Africa, and parts of North America. They are known for their elongated body, large mouth, and aggressive feeding behavior. Snakeheads are air-breathing fish and can survive in oxygen-deprived waters. Some species of snakeheads are invasive and can impact native aquatic ecosystems."
+     },
+     {
+        "id": 29,
+        "name": "TenPounder",
+        "scientificName": "Elops saurus",
+        "description": "TenPounder, also known as ladyfish, is a species of fish found in coastal waters of the Atlantic Ocean. They are slender, fast-swimming fish with a silver coloration. TenPounders are often used as baitfish and are popular among recreational anglers. They are known for their leaping ability and are found in both saltwater and brackish water environments."
+     },
+     {
+        "id": 30,
+        "name": "Tilapia",
+        "scientificName": "Oreochromis spp.",
+        "description": "Tilapia is a group of cichlid fish native to freshwater habitats in Africa, the Middle East, and parts of Asia. They are one of the most widely cultivated fish species in aquaculture due to their rapid growth and adaptability to various environmental conditions. Tilapia are omnivorous and feed on algae, aquatic plants, and small invertebrates."
+     }
+   ]

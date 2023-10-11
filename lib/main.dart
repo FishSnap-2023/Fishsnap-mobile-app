@@ -2,8 +2,19 @@ import 'dart:async';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:fishsnap/onboarding.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 Future<void> main() async {
+  SystemChrome.setSystemUIOverlayStyle(
+    const SystemUiOverlayStyle(
+      //statusBarColor: Color.fromARGB(255, 255, 255, 255),
+      statusBarBrightness: Brightness.dark,
+      statusBarIconBrightness: Brightness.light,
+      systemNavigationBarColor: Colors.black,
+      systemNavigationBarIconBrightness: Brightness.light,
+    ),
+  );
+
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   runApp(const MainApp());
@@ -21,7 +32,7 @@ class MainApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
         fontFamily: 'Roboto',
       ),
-      home: const SplashScreen(), // Show SplashScreen initially
+      home: const SplashScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
@@ -49,7 +60,10 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue, // Set background color to blue
+      backgroundColor: Colors.blue, 
+      // appBar: AppBar(
+      //   backgroundColor: Colors.blue.withOpacity(0.9),
+      // ),// Set background color to blue
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,

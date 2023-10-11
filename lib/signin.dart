@@ -31,6 +31,10 @@ class _SignInPageState extends State<SignInPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.blue,
+      // appBar: AppBar(
+      //   backgroundColor: Colors.blue
+      // ),
       body: Container(
         decoration: const BoxDecoration(
           image: DecorationImage(

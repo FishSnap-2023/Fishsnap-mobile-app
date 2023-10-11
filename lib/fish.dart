@@ -112,7 +112,7 @@ final List<Fish> fishData = [
     name: 'Cherry shrimp',
     type: 'Shrimp',
     scientificName: 'Neocaridina davidi',
-    imagePath: 'assets/images/shrimp/Cherryshrimp.jpeg',
+    imagePath: 'assets/images/shrimp/Cherry_shrimp.jpeg',
     description: 'Cherry shrimp are another popular type of freshwater aquarium shrimp. They are native to China and Taiwan, and they typically grow to about 1 inch long. Cherry shrimp are known for their bright red color, and they are relatively easy to care for.',
   ),
 ];

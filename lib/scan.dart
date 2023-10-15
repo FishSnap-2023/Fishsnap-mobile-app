@@ -69,7 +69,6 @@ class _ScanPageState extends State<ScanPage> {
             await sendPostRequest(imageUrl);
 
             // Handle success or navigate to a new page
-            
 
           } catch (e) {
             print('Error capturing image: $e');

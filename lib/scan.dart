@@ -1,6 +1,7 @@
 import 'dart:io';
 import 'package:camera/camera.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:fishsnap/fishDetailScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:path_provider/path_provider.dart';
@@ -19,6 +20,7 @@ class ScanPage extends StatefulWidget {
 class _ScanPageState extends State<ScanPage> {
   late CameraController _controller;
   late Future<void> _initializeControllerFuture;
+  String? capturedImageUrl; // Variable to store the captured image URL
 
       @override
       void initState() {
@@ -69,6 +71,19 @@ class _ScanPageState extends State<ScanPage> {
             await sendPostRequest(imageUrl);
 
             // Handle success or navigate to a new page
+                  // Store captured image URL
+            capturedImageUrl = imageUrl;
+
+            // Navigate to the result page with captured image URL
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => FishDetailsScreen(
+                  selectedFishIndex: 0, // You can set the fish index as per your requirement
+                  capturedImageUrl: capturedImageUrl, // Pass the captured image URL
+                ),
+              ),
+            );
 
           } catch (e) {
             print('Error capturing image: $e');
@@ -117,7 +132,7 @@ class _ScanPageState extends State<ScanPage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Scan your image',
+          'Scan Your Image',
           style: TextStyle(
             color: Colors.white,
             fontSize: 24.0,
@@ -135,12 +150,18 @@ class _ScanPageState extends State<ScanPage> {
           }
         },
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _captureImage,
-        child: const Icon(Icons.camera),
-      ),
-    );
-  }
+      floatingActionButton: Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        FloatingActionButton(
+          onPressed: _captureImage,
+          child: const Icon(Icons.camera,size: 40.0),
+        ),
+      ],
+    ),
+    
+  );
+}
 
   @override
   void dispose() {

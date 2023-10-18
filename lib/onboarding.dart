@@ -136,7 +136,6 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     );
   }
 
-//Create the indicator list
 List<Widget> _buildIndicator() {
   List<Widget> indicators = [];
 

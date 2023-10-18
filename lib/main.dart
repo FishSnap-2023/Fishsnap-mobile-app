@@ -8,7 +8,6 @@ import 'package:flutter/services.dart';
 Future<void> main() async {
   SystemChrome.setSystemUIOverlayStyle(
     const SystemUiOverlayStyle(
-      //statusBarColor: Color.fromARGB(255, 255, 255, 255),
       statusBarBrightness: Brightness.dark,
       statusBarIconBrightness: Brightness.light,
       systemNavigationBarColor: Colors.black,

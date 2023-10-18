@@ -15,13 +15,11 @@ class RootPage extends StatefulWidget {
 
 class _RootPageState extends State<RootPage> {
   int bottomNavIndex = 0;
-  //list of the pages
   List<Widget> pages = const [
     HomePage(),
     ProfilePage(),
   ];
 
-  //list of the pages icons
   List<BottomNavigationBarItem> bottomNavBarItems = const [
     BottomNavigationBarItem(
       icon: Icon(Icons.home),
@@ -32,12 +30,7 @@ class _RootPageState extends State<RootPage> {
       label: 'Profile',
     ),
   ];
-  //list of the page titles
-  List<String> appBarTitles = const [
-    'Home',
-    'Profile',
-  ];
-  //function to change the page
+  
   @override
   Widget build(BuildContext context) {
     return  Scaffold(

@@ -32,12 +32,9 @@ class _ScanPageState extends State<ScanPage> {
       Future<void> _initializeCamera() async {
         final cameras = await availableCameras();
         _controller = CameraController(cameras[0], ResolutionPreset.medium);
-        _initializeControllerFuture = _controller.initialize().then((_) {
-          if (!mounted) {
-            return;
-          }
-          setState(() {});
-        });
+        await _controller.initialize();
+        setState(() {});
+        _initializeControllerFuture = Future.value();
       }
 
       Future<void> requestCameraPermission() async {

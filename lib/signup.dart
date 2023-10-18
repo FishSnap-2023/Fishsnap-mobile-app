@@ -3,7 +3,6 @@ import 'package:fishsnap/root.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
-
 class SignUpPage extends StatefulWidget {
   @override
   _SignUpPageState createState() => _SignUpPageState();
@@ -25,13 +24,22 @@ class _SignUpPageState extends State<SignUpPage> {
       print('User signed up: ${userCredential.user?.email}');
     } catch (e) {
       print('Error during signup: $e');
-      // Handle signup errors here
     }
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.transparent.withOpacity(0.9),
+        elevation: 0,
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back),
+          onPressed: () {
+            Navigator.pop(context);
+          },
+        ),
+      ),
       body: SafeArea(
         child: Container(
           decoration: const BoxDecoration(
@@ -41,17 +49,8 @@ class _SignUpPageState extends State<SignUpPage> {
             ),
           ),
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              AppBar(
-                backgroundColor: Colors.transparent,
-                elevation: 0,
-                leading: IconButton(
-                  icon: const Icon(Icons.arrow_back),
-                  onPressed: () {
-                    Navigator.pop(context);
-                  },
-                ),
-              ),
               Center(
                 child: Padding(
                   padding: const EdgeInsets.all(12),
@@ -62,66 +61,65 @@ class _SignUpPageState extends State<SignUpPage> {
                         child: const Text(
                           "Dive into the world of fish",
                           style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 30,
-                            fontWeight: FontWeight.normal),
+                              color: Colors.white,
+                              fontSize: 30,
+                              fontWeight: FontWeight.normal),
                         ),
                       ),
                       const SizedBox(height: 10),
-                    Container(
-                      margin: const EdgeInsets.only(bottom: 20),
-                      child: const Text(
-                        "Enter your details to continue",
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 18,
-                          fontWeight: FontWeight.w300
-                          ),
+                      Container(
+                        margin: const EdgeInsets.only(bottom: 20),
+                        child: const Text(
+                          "Enter your details to continue",
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 18,
+                              fontWeight: FontWeight.w300),
+                        ),
                       ),
-                    ),
-                    Container(
-                      margin: const EdgeInsets.only(left: 25, right: 25),
-                      child: reusableTextField(
-                        "User name",
-                        Icons.person,
-                        false,
-                        _usernameController,
+                      Container(
+                        margin: const EdgeInsets.only(left: 25, right: 25),
+                        child: reusableTextField(
+                          "User name",
+                          Icons.person,
+                          false,
+                          _usernameController,
+                        ),
                       ),
-                    ),
-                    const SizedBox(height: 20),
-                    Container(
-                      margin: const EdgeInsets.only(left: 25, right: 25),
-                      child: reusableTextField(
-                        "Email",
-                        Icons.email,
-                        false,
-                        _emailController,
+                      const SizedBox(height: 20),
+                      Container(
+                        margin: const EdgeInsets.only(left: 25, right: 25),
+                        child: reusableTextField(
+                          "Email",
+                          Icons.email,
+                          false,
+                          _emailController,
+                        ),
                       ),
-                    ),
-                    const SizedBox(height: 20),
-                    Container(
-                      margin: const EdgeInsets.only(left: 25, right: 25),
-                      child: reusableTextField(
-                        "Password",
-                        Icons.lock_outline,
-                        true,
-                        _passwordController,
+                      const SizedBox(height: 20),
+                      Container(
+                        margin: const EdgeInsets.only(left: 25, right: 25),
+                        child: reusableTextField(
+                          "Password",
+                          Icons.lock_outline,
+                          true,
+                          _passwordController,
+                        ),
                       ),
-                    ),
-                    const SizedBox(height: 20),
-                    Container(
-                      margin: const EdgeInsets.only(left: 25, right: 25),
-                      child: Center(
-                        child: signInSignUpButton(context, true, _signUp),
+                      const SizedBox(height: 20),
+                      Container(
+                        margin: const EdgeInsets.only(left: 25, right: 25),
+                        child: Center(
+                          child: signInSignUpButton(context, true, _signUp),
+                        ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
-      ),
       ),
     );
   }

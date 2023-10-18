@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class Constants {
-  // Primary color for a fish identification app
   static var primaryColor = const Color.fromARGB(255, 0, 102, 204);
   static var backgroundColor = const Color.fromARGB(255, 2, 1, 49);
   static var titleOne = "Discover Fish Species";
@@ -78,7 +77,7 @@ Container signInSignUpButton(BuildContext context, bool isLogin, Function onTap)
       child: Text(
         isLogin ? "Sign In" : "Sign Up",
         style: const TextStyle(
-          fontSize: 16,
+          fontSize: 18,
           fontWeight: FontWeight.bold,
         ),
       ),

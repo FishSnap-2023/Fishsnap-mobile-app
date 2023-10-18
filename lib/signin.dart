@@ -31,10 +31,9 @@ class _SignInPageState extends State<SignInPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue,
-      // appBar: AppBar(
-      //   backgroundColor: Colors.blue
-      // ),
+      appBar: AppBar(
+        backgroundColor: Colors.transparent.withOpacity(0.9),
+      ),
       body: Container(
         decoration: const BoxDecoration(
           image: DecorationImage(
@@ -67,7 +66,7 @@ class _SignInPageState extends State<SignInPage> {
                   Container(
                       margin: const EdgeInsets.only(left: 40,right: 40),
                       child: reusableTextField(
-                          "Enter User Name",Icons.person_2_outlined,false,
+                          "Enter Email",Icons.person_2_outlined,false,
                         _emailTextController
                         ),
                     ),
@@ -106,11 +105,11 @@ class _SignInPageState extends State<SignInPage> {
         "Don't you have an account?",
         style: TextStyle(
           color: Colors.white,
+          fontSize: 16,
         ),
       ),
       GestureDetector(
         onTap: () {
-          // You can uncomment the following lines to navigate to the sign-up page
           Navigator.push(
             context,
             MaterialPageRoute(builder: (context) =>SignUpPage()),
@@ -121,6 +120,7 @@ class _SignInPageState extends State<SignInPage> {
           style: TextStyle(
             color: Colors.white,
             fontWeight: FontWeight.bold,
+            fontSize: 18,
           ),
         ),
       ),

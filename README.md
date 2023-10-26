@@ -10,7 +10,7 @@ Fishsnap Frontend is a mobile application developed using the Flutter framework 
 To run Fishsnap Frontend, you need to have Flutter SDK installed on your system. You can download and install Flutter by following the instructions on the official Flutter website: Flutter Installation Guide.
 
 ## Clone the Repository
-![Progress](https://img.shields.io/badge/progress-95%25-brightgreen.svg)
+
 ```bash
 git clone https://github.com/ImeshaDilshani/Fishsnap-Frontend.git
 ```

@@ -1,6 +1,10 @@
 # Fishsnap-Frontend
+![Progress](https://img.shields.io/badge/progress-95%25-brightgreen.svg)
 
 Fishsnap Frontend is a mobile application developed using the Flutter framework with Dart. It is designed to work seamlessly with the Fishsnap Backend, providing a user-friendly interface for users to classify fish species in images. This README will guide you on setting up and using the Fishsnap Frontend mobile application.
+
+![FishSnap-GitHub](https://github.com/ImeshaDilshani/Fishsnap-Frontend/assets/93858302/262093e9-8e81-4422-b2c4-5c66475c2272)
+
 
 ## Requirements
 To run Fishsnap Frontend, you need to have Flutter SDK installed on your system. You can download and install Flutter by following the instructions on the official Flutter website: Flutter Installation Guide.

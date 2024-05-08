@@ -28,7 +28,7 @@ flutter run
 Make sure you have an emulator running or a physical device connected to your computer to deploy the application.
 
 ## Using Fishsnap Frontend
-Fishsnap Frontend provides an intuitive interface for users to classify fish species in images. Users can capture a photo using the device's camera. The application then sends the image to the Fishsnap Backend using FastAPI for processing and displays the predicted fish species to the user.
+Fishsnap Frontend provides an intuitive interface for users to classify fish species in images. Users can capture a photo using the device's camera. The application then sends the image to the Fishsnap Backend using flask for processing and displays the predicted fish species to the user.
 
 ## Features
 - Capture Photo: Users can capture a photo of a fish using the device's camera.
